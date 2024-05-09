@@ -1,1 +1,338 @@
-CloudAndWebDevelopment {}
+body {
+    overflow: hidden;
+    background: #000;
+    min-height: 100vh;
+    background-image: url(space-clouds.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.mobileFrame {
+    display: none;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    font-size: 30px;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.desktopNavBar {
+    width: 100vw;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-bottom: 0.50px #ddcb9d7f solid;
+}
+
+/* load of pixel text, orange brackets, cloud and web text. */
+.logoFrame {
+    width: 233.16px;
+    height: 50.32px;
+    left: 45px;
+    top: 0;
+    position: absolute;
+
+}
+
+.logoFrame:hover {
+    scale: 1.2;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.Frame103 {
+    width: 190.84px;
+    height: 40.70px;
+    left: 38.84px;
+    top: 7.70px;
+    position: absolute"
+
+}
+
+.Group147 {
+    width: 235.16px;
+    height: 51px;
+    left: -2px;
+    top: 8px;
+    position: absolute
+}
+
+.LoadOfPixel {
+    left: 1.2rem;
+    top: 3px;
+    position: absolute;
+    text-align: right;
+    color: #BC98EF;
+    font-size: 30px;
+    font-family: Poppins;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.Group133 {
+    width: 20px;
+    height: 17.69px;
+    left: 217.34px;
+    top: 18.06px;
+    position: absolute;
+    background-image: url(orange-brackets.svg);
+    background-size: cover
+}
+
+.CloudWebDev {
+    left: 152.5px;
+    top: 38.98px;
+    position: absolute;
+    color: #E6E6E6;
+    font-size: 5.8px;
+    font-family: Open Sans;
+    font-weight: 600;
+    line-height: 7.61px;
+    word-wrap: break-word
+}
+
+.Navbar {
+    left: 399px;
+    top: 1.46px;
+    position: absolute;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 9px;
+    display: inline-flex;
+}
+
+.Nav-link {
+    padding: 16.30px;
+    justify-content: center;
+    align-items: center;
+    gap: 16.30px;
+    display: flex;
+}
+
+.Home {
+    color: #FCFDFD;
+    font-size: 20px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Home:hover {
+    color: #F56F0F;
+    cursor: pointer;
+}
+
+.MobileSocial {
+    width: 124.19px;
+    height: 20.31px;
+    left: 1288px;
+    top: 23.84px;
+    position: absolute;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4px;
+    display: inline-flex;
+}
+
+.FollowUs {
+    width: 60.05px;
+    font-size: 13px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+    color: #FCFDFD;
+}
+
+.FollowUs:hover {
+    scale: 1.2;
+    position: relative;
+    left: -8px;
+    color: #f79956;
+    cursor: pointer;
+}
+
+.linkedinIcon {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    gap: 0.25rem;
+    background-size: cover;
+    background-image: url("linkedinIcon.svg");
+}
+
+
+.githubIcon {
+    background-image: url("githubIcon.svg");
+    width: 22px;
+    height: 22px;
+    position: relative;
+    left: 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    gap: 0.25rem;
+    background-size: cover;
+}
+
+.microsoftIcon {
+    width: 22px;
+    height: 22px;
+    position: relative;
+    left: 1rem;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    gap: 0.25rem;
+    background-size: cover;
+    background-image: url("microsoft.svg");
+}
+
+h6 {
+    position: relative;
+    color: #F56F0F;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgba(225, 225, 225, 0.447);
+    left: 85%;
+}
+
+h6:hover {
+    color: rgb(188, 152, 239);
+    cursor: pointer;
+}
+
+span {
+    color: rgb(188, 152, 239);
+}
+
+span:hover {
+    color: #F56F0F;
+    cursor: pointer;
+}
+
+/* homePage section */
+.HomepageSection {
+    width: 1234px;
+    height: 580px;
+    left: 10rem;
+    top: 6rem;
+    position: absolute
+}
+
+.LogoText {
+    padding: 10px;
+    left: 0px;
+    top: 8px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex
+}
+
+.LoadOfPixels {
+    color: #F56F0F;
+    text-shadow: 0.5px 0 0px #939a9c;
+    font-size: 32px;
+    font-family: Poppins;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.28px;
+    word-wrap: break-word;
+}
+
+.MainText {
+    padding: 10px;
+    left: 0px;
+    top: 78.06px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+}
+
+.WebDevUxDesign {
+    color: #4d3d64;
+    text-shadow: 0.5px 0 0px rgb(223, 221, 221);
+    font-size: 101px;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+
+.SentenceParagraph {
+    padding: 10px;
+    left: 0px;
+    top: 350px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex
+}
+
+.TechWebsites,
+.EngagingWebsites {
+    color: #d2d2d2;
+    font-size: 28px;
+    font-family: "Open-sans";
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.SentenceParagraph2 {
+    padding: 10px;
+    left: 0px;
+    top: 416.94px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex
+}
+
+.DesktopButton {
+    padding: 10px;
+    left: 970px;
+    top: 500px;
+    position: absolute;
+    background: #4d3d64;
+    border-radius: 4px;
+    border: 1px rgb(116, 116, 116) solid;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    display: inline-flex
+}
+
+.GetInTouch {
+    color: #aeaeae;
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 600;
+    word-wrap: break-word;
+}
